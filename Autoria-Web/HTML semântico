@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Meu Blog</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Meu Blog</h1>
+
+        <nav aria-label="Navegação principal">
+            <a href="/">Início</a>
+            <a href="/sobre">Sobre</a>
+            <a href="/contato">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <article>
+            <header>
+                <h2>Aprendendo HTML</h2>
+
+                <p>
+                    Publicado em
+                    <time datetime="2026-08-17">
+                        17 de agosto de 2026
+                    </time>
+                </p>
+            </header>
+
+            <p>
+                HTML é uma linguagem utilizada para estruturar
+                documentos na Web.
+            </p>
+
+            <p>
+                Usar elementos semânticos ajuda a deixar essa
+                estrutura mais clara.
+            </p>
+        </article>
+
+        <aside>
+            <h2>Posts recentes</h2>
+
+            <ul>
+                <li>
+                    <a href="/css">Aprendendo CSS</a>
+                </li>
+
+                <li>
+                    <a href="/javascript">Aprendendo JavaScript</a>
+                </li>
+            </ul>
+        </aside>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Meu Blog</p>
+    </footer>
+
+</body>
+</html>
