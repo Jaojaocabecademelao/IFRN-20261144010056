@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    margin: 0; /* Define a margem do elemento*/
+    padding: 0;
+    background-color: #00ff00;   
+}
+
+header {
+    background-color: #333;
+    color: #4fd15a;
+    margin: 20px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav {
+    background-color: #98cb9c;
+    margin: 20px;
+}
+
+nav ul {
+    background-color: #52ffc5;
+    display: flex;
+    list-style: none;
+    justify-content: center; /* Centraliza os itens do menu */
+    gap: 20px; /* Adiciona espaçamento entre os itens do menu */
+}
+
+nav a {
+    color: #202020;
+    text-decoration: none;
+
+}   
+
+main {
+    margin: 70px;
+    padding: 30px;
+}
+
+main aside ul {
+    background-color: #ce94ab;
+    display: flex;
+    list-style: none;
+    justify-content: center; /* Centraliza os itens do menu */
+    gap: 20px; /* Adiciona espaçamento entre os itens do menu */
+}
+
+#lala {
+    background-color: #f95999;
+    margin: 40px;
+}
