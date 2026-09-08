@@ -1,0 +1,9 @@
+valido = False
+while not valido:
+    try:
+        nota = float(input('Coloque uma nota entre 0 e 10: '))
+        if nota < 0 or nota > 10:
+            raise ValueError('A nota deve estar entre 0 e 10')
+        valido = True
+    except (ValueError, ):
+        print('Nota inválida, deve ser um número')
