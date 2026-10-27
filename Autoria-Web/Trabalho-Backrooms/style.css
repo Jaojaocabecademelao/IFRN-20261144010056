@@ -1,9 +1,13 @@
-/* Style the video: 100% width and height to cover the entire window */
 #background {
-    position: absolute;
-    right: 0;
-    bottom: 0;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
     min-width: 100%;
     min-height: 100%;
+    width: auto;
+    height: auto;
+
     z-index: -1;
 }
