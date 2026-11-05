@@ -1,6 +1,6 @@
 // Código para a página web das Backrooms | Introdução.
 
-function delay(ms) {
+function delay(ms: number) {
     return new Promise(resolve => setTimeout(resolve, ms));
 }
 
